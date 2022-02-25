@@ -30,8 +30,6 @@ nav ul {
 
 nav ul li a{
     padding: 20px;
-    border: 2px solid red;
-    border-radius: 20px;
     color: #e5e7eb;
     font-size: 18px;
     text-decoration: none;
@@ -137,8 +135,39 @@ nav ul li a:hover::after{
 }
 
 .cta {
-    padding: 100px;
+    margin: 5% 10%;
+    padding: 25px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
 }
+
+.cta-right button{
+    color: white;
+    background-color: #3882f6;
+    padding: 8px 24px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: white;
+    color: black
+}
+
+footer {
+    height: 100px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 
 
